@@ -1,0 +1,21 @@
+.input-field {
+  width: 100% !important;
+}
+input[type="text"]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 black;
+}
+.App__todo-list-form-btn {
+  color: black;
+  background-color: #e0e0e0;
+  margin: 15px 0;
+}
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover {
+  color: #e0e0e0;
+  background-color: black;
+}
+.btn:focus {
+  background-color: #c6c6c6eb;
+}

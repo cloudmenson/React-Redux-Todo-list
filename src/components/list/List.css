@@ -1,0 +1,22 @@
+.App__todo-list {
+  font-size: 16px;
+}
+.App__todo-list--item {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  background-color: whitesmoke;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.App__todo-list--item.done {
+  background-color: #8080805c;
+  text-decoration: line-through;
+}
+.App__todo-list-remove-btn {
+  padding: 0 10px;
+  margin: 5px 10px;
+}
