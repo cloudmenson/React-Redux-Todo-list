@@ -12,6 +12,7 @@ export default function Form() {
   function onAddTodos(e) {
     e.preventDefault();
     dispatch(addTodo(setTitle));
+    setNewTitle({ title: "" });
   }
   return (
     <div className="App__todo-list-form">
