@@ -23,6 +23,7 @@ export default function Form() {
               type="text"
               value={setTitle.title}
               placeholder="What do you need to do?"
+              required
               onChange={onChangeHandler}
             />
             <button
