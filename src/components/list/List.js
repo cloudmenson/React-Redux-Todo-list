@@ -23,7 +23,7 @@ export default function List() {
               className="App__todo-list-remove-btn waves-effect waves-light btn red"
               onClick={() => dispatch(onDeleteTodo(todos.id))}
             >
-              <i class="material-icons">remove</i>
+              <i className="material-icons">remove</i>
             </button>
           </div>
         );
