@@ -10,6 +10,7 @@
   margin: 20px 0;
   background-color: whitesmoke;
   padding: 10px 15px;
+  overflow-wrap: anywhere;
   cursor: pointer;
 }
 .App__todo-list--item.done {
