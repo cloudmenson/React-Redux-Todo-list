@@ -1,3 +1,5 @@
+# Description
+
 Simple Todo-list application with react-redux
 
 # Getting Started
